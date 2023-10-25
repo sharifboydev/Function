@@ -144,17 +144,17 @@
 # print(yangi_ismlar)
 
 
-talabalar = ['jamshid', 'asad', 'masur', 'temur']
+# talabalar = ['jamshid', 'asad', 'masur', 'temur']
 
 
-def bahola(ismlar):
-    baholar = {}
-    for ism in ismlar:
-        baho = int(input(f"Talaba {ism.title()}ning bahosini kiriting: "))
-        baholar[ism] = baho
-    return baholar
-
-
-baholar = bahola(talabalar)
-print(baholar)
-print(talabalar)
+# def bahola(ismlar):
+#     baholar = {}
+#     for ism in ismlar:
+#         baho = int(input(f"Talaba {ism.title()}ning bahosini kiriting: "))
+#         baholar[ism] = baho
+#     return baholar
+#
+#
+# baholar = bahola(talabalar)
+# print(baholar)
+# print(talabalar)
