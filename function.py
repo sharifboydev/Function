@@ -187,12 +187,12 @@
 
 # print(summa(2, 3, 5, 6, 7, 8, 9,))
 
-def avto_info(kompaniya, model, **malumotlar):
-    malumotlar['kompaniya'] = kompaniya
-    malumotlar['model'] = model
-    return malumotlar
-
-
-avto1 = avto_info("Gm", "Malibu", rang='qora', yil='2020')
-avto2 = avto_info("BMW", "M5", rang='kok', yil='2021')
-print(avto2)
+# def avto_info(kompaniya, model, **malumotlar):
+#     malumotlar['kompaniya'] = kompaniya
+#     malumotlar['model'] = model
+#     return malumotlar
+#
+# 
+# avto1 = avto_info("Gm", "Malibu", rang='qora', yil='2020')
+# avto2 = avto_info("BMW", "M5", rang='kok', yil='2021')
+# print(avto2)
