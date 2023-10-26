@@ -163,12 +163,36 @@
 # 26.10.2023
 # Moslashuvchan funksiya
 
-def summa(*sonlar):
-    yigindi = 0
-    for son in sonlar:
-        yigindi += son
-    return yigindi
+# def summa(*sonlar):
+#     yigindi = 0
+#     for son in sonlar:
+#         yigindi += son
+#     return yigindi
+#
+#
+# print(summa(1, 2, 3))
+# print(summa(1, 2, 3, 4, 5, 6, 7))
 
 
-print(summa(1, 2, 3))
-print(summa(1, 2, 3, 4, 5, 6, 7))
+# def summa(*sonlar):
+# return sum(sonlar)
+
+
+# print(summa(3, 4, 5, 6, 7, 8))
+
+
+# def summa(x, y, *sonlar):
+# return x + y + sum(sonlar)
+
+
+# print(summa(2, 3, 5, 6, 7, 8, 9,))
+
+def avto_info(kompaniya, model, **malumotlar):
+    malumotlar['kompaniya'] = kompaniya
+    malumotlar['model'] = model
+    return malumotlar
+
+
+avto1 = avto_info("Gm", "Malibu", rang='qora', yil='2020')
+avto2 = avto_info("BMW", "M5", rang='kok', yil='2021')
+print(avto2)
